@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="bg-gradient-to-b from-gray-900 via-purple-800 to-gray-700 flex items-center justify-center min-h-screen"
+  >
+    <input
+      type="url"
+      class="input validator shadow-[-1px_23px_15px_0px_rgba(0,0,0,0.41)"
+      required
+      placeholder="https://"
+      value="https://github.com/fahad-shoron"
+      pattern="^(https?://)?([a-zA-Z0-9]([a-zA-Z0-9-].*[a-zA-Z0-9])?.)+[a-zA-Z].*$"
+      title="Must be valid URL"
+    />
+    <p class="validator-hint">Must be valid URL</p>
+    <div class="mockup-phone w-96 h-auto">
+      <div class="mockup-phone-camera"></div>
+      <div
+        class="bg-gradient-to-b from-purple-500 via-purple-200 to-white font-mono mockup-phone-display text-green-950 grid place-content-center bg-neutral-900 gap-4"
+      >
+        <h1 class="text-center text-3xl font-bold">
+          JavaScript <br />
+          Homework Output
+        </h1>
+        <p class="text-center">Check the Browser Console to see the results.</p>
+        <button
+          class="btn m-6 bg-gradient-to-r from-purple-600 to-pink-500 text-white"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+    <div
+      class="card shadow-2xl bg-white hover: text-primary-content w-96 mx-12"
+    >
+      <div class="card-body text-black">
+        <h2 class="text-center p-3 text-2xl font-bold ">JS-Workout!</h2>
+        <p class="font-semibold ser">
+          📌 Project Summary Solutions for 4 JavaScript problems using
+          variables, operators, and conditional logic (if/else): <br />
+          • Q1 Super Shop: Bill with discount & 5% VAT <br />• Q2 Ride Fare:
+          Distance-based slab calculator<br />
+          • Q3 Grade Calc: Average grade & pass/fail check<br />
+          • Q4 Electricity: <br /><br />Tiered unit bill calculator Status:
+          Clean & Verified Code
+        </p>
+
+        <div class="card-actions justify-end">
+          <button class="btn bg-gradient-to-r from-purple-600 to-pink-500 text-white text-white">See Now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="qs1.js"></script>
+    <script src="qs2.js"></script>
+    <script src="qs3.js"></script>
+    <script src="qs4.js"></script>
+  </body>
+</html>
